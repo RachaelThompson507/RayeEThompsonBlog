@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "RayeEThompson Blog",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "A personal blog from the gatsby starter blog powered by Netlify CMS",
   "version": "1.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "Rachael E Thompson",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -58,6 +58,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "clean": "gatsby clean",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
