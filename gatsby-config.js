@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Raye E Thompson Personal Blog`,
+    title: `Raye E Thompson`,
     author: `Raye E Thompson`,
     description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
     siteUrl: `https://rayeethompsonblog.netlify.app/`,
@@ -71,7 +71,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `RayeEThompson Blog`,
+        name: `RayeEThompson`,
         short_name: `RET`,
         start_url: `/`,
         background_color: `#ffffff`,
