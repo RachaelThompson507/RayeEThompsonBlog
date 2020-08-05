@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Raye E Thompson`,
+    title: `Rayeable`,
     author: `Raye E Thompson`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
+    description: `A blog about what we can do, learn and achieve.`,
     siteUrl: `https://rayeethompsonblog.netlify.app/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `rayeethompson`,
+      linkedin: `rayeethompson`
     },
   },
   plugins: [

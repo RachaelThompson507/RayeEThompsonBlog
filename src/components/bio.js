@@ -17,7 +17,7 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { author } = data.site.siteMetadata
         return (
           <Container>
             <Image
@@ -35,11 +35,7 @@ function Bio() {
             />
             <p>
               Written by <strong>{author}</strong>:{` `}
-              educator, advocate, mentor, developer
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                Follow me on Twitter
-              </a>
+              Teacher and Developer Advocate
             </p>
           </Container>
         )

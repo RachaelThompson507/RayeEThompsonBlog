@@ -13,11 +13,11 @@ const ButtonWrapper = styled.button`
   text-decoration: none;
   padding: 10px 25px;
   cursor: pointer;
-  text-transform: uppercase;
   letter-spacing: 2px;
 
   background: ${props => props.props.background || "black"};
   color: ${props => props.props.color || "rgb(255, 255, 255)"};
+  font-family: ${props => props.props.fontFamily || "Montserrat"};
   font-size: ${props => props.props.fontSize || "15px"};
   font-weight: ${props => props.props.fontWeight || "600"};
   border-radius: ${props => props.props.radius || "6px"};

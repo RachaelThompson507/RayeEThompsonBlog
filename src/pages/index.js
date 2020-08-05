@@ -7,7 +7,7 @@ import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
-    const siteTitle = "RayeEThompson"
+    const siteTitle = "Rayeable"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -15,17 +15,17 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <img style={{ margin: 0 }} src="./blogHomePage.jpg" alt="You Got This" />
+        <img style={{ margin: 0 }} src="./doSomethingGreat.jpg" alt="Do Something Great" />
         <h1>
-          Hello World{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
+          Hello World, I am Raye{" "}
+          <span role="img" aria-label="female-technologist">
+            👩🏻‍💻
           </span>
         </h1>
-        <p>Welcome to my Blog created with Gatsby.</p>
-        <p>Now let's get into all that is awesome!</p>
+        <p>Rayeable is about realizing ability and helping others to realize their own potential for greatness. </p>
+        <p>Together, we will do great things.</p>
         <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
+          <Button marginTop="35px">Let's Get Started</Button>
         </Link>
       </Layout>
     )
